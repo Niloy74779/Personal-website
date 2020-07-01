@@ -178,6 +178,16 @@ h1{
     border: 2px solid rgb(255, 0, 128);
     text-align: center;
     background-color: rgb(255, 0, 128);
+    box-shadow: 10px 10px 40px gray;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.ankor a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700; 
 }
 
 #text{
@@ -233,5 +243,4 @@ footer p{
     font-style: initial;
     background-color:whitesmoke;
 }
-
 
