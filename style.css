@@ -191,9 +191,9 @@ h1{
 .ankor{
     width: 30%;
     margin-left: 35%;
-    border: 2px solid blue;
+    border: 2px solid rgb(255, 0, 128);
     text-align: center;
-    background-color: blue;
+    background-color: rgb(255, 0, 128);
 }
 
 #text{
