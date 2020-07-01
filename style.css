@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+.highlite{
+    color: rgb(255, 0, 128);
+}
+
+p{
+    color: dimgrey;
+}
+
+.text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-shadow: 3px;
+    margin-bottom: 10px ;
+    scroll-padding-bottom: 10px;
+    
+}
+
+ img {
+    width: 90%;
+  
+}
+
+.top{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient( 180deg, blue, cyan);
+}
+
+.biography-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    text-shadow: 3px;
+    padding-left: 2%;
+    text-indent: 20px;
+    
+  
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+
+}
+ 
+.cv{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, orangered, orange);
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.service{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    text-shadow: 3px;
+    box-shadow: 10px 10px 40px gray;
+    height: 30%;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px ;
+    
+}
+
+.service h2{
+    color: orange;
+}
+
+.service-text{
+    text-align: center;
+    font-weight: bold;
+}
+
+.service:hover{
+    font-size: 17px;
+    font-style: initial;
+    background-color: rgb(243, 232, 209);
+}
+
+.my-service{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.work{
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+}
+
+.first-image{
+    width: 30%;
+    margin: 5px;
+    display: inline-block;
+}
+
+.first-image:hover{
+    width: 35%;
+}
+
+.sec-image{
+    width: 30%;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.sec-image:hover{
+    width: 35%;
+}
+
+.third-image{
+    width: 30%;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.third-image:hover{
+    width: 35%;
+}
+
+.client{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+}
+
+
+
+
+.color{
+    color: rgb(255, 0, 128);
+}
+
+.next-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-shadow: 3px;
+    box-shadow: 10px 10px 40px gray;
+    height: 65%;
+    background-color: white;
+}
+h1{
+    font-size: 35px;
+}
+
+.next-div:hover{
+    font-size: 20px;
+    font-style: initial;
+    background-color:whitesmoke;
+}
+
+.experiencr{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.ankor{
+    width: 30%;
+    margin-left: 35%;
+    border: 2px solid blue;
+    text-align: center;
+    background-color: blue;
+}
+
+#text{
+    text-decoration: none;
+    color:white;
+}
+
+
+footer p{
+    text-align: center;
+    
+}
+
