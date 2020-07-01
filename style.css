@@ -24,14 +24,14 @@ p{
 }
 
  img {
-    width: 90%;
+    width: 100%;
   
 }
 
 .top{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    
+    background-size: 100%;
 }
 section{
     height: 500px;
@@ -62,6 +62,7 @@ section{
 .biography{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+   
 
 }
  
@@ -108,14 +109,17 @@ section{
 .my-service{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 100%;
 }
 
 
 .work{
     text-align: center;
     background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+
 }
+
 
 .first-image{
     width: 30%;
@@ -155,31 +159,11 @@ section{
 }
 
 
-
-
-.color{
-    color: rgb(255, 0, 128);
-}
-
-.next-div{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    text-shadow: 3px;
-    box-shadow: 10px 10px 40px gray;
-    height: 65%;
-    background-color: white;
-}
 h1{
     font-size: 35px;
 }
 
-.next-div:hover{
-    font-size: 20px;
-    font-style: initial;
-    background-color:whitesmoke;
-}
+
 
 .experiencr{
     background-image: url("images/footer-bg.png");
@@ -201,9 +185,53 @@ h1{
     color:white;
 }
 
+.me{
+    font-size: 40px;
+    text-align: center;
+}
+
+.color{
+    color:rgb(255, 0, 128);
+}
+
+.next-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-shadow: 3px;
+    box-shadow: 10px 10px 40px gray;
+    height: 65%;
+    background-color: white;
+}
+
+.experiencr{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#full{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg, rgba(187, 255, 0, 0.582), rgb(0, 255, 221));
+    border-image-slice: 1;
+}
+
+#web{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
 
 footer p{
     text-align: center;
-    
 }
+
+.next-div:hover{
+    font-size: 20px;
+    font-style: initial;
+    background-color:whitesmoke;
+}
+
 
