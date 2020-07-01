@@ -155,7 +155,13 @@ section{
 
 .client{
     text-align: center;
+   
+}
+
+.footer{
     background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    background-image: cover;
 }
 
 
@@ -164,13 +170,6 @@ h1{
 }
 
 
-
-.experiencr{
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    
-}
 
 .ankor{
     width: 30%;
@@ -215,12 +214,7 @@ h1{
     background-color: white;
 }
 
-.experiencr{
-    background-image: url("image/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    
-}
+
 
 #full{
     border-left: 8px solid;
@@ -236,6 +230,8 @@ h1{
 
 footer p{
     text-align: center;
+    padding-bottom: 30px;
+  
 }
 
 .next-div:hover{
